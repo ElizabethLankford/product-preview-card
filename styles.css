@@ -1,0 +1,140 @@
+
+body{  
+    margin: 0;
+    padding: 2em 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    height: 60%;
+    width: 340px;
+    background-color: white;
+    border-radius: .7em;
+}
+.card-img-container{
+    height: 30%;
+}
+#mobile{
+    width: 100%;
+    height: 100%;
+    border-radius: .7em .7em 0 0;
+}
+#desktop{
+    display: none;
+}
+.card-info-container{
+    padding: 1em;
+    margin: .7em;
+}
+.card-info-container>h5{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5em;
+    margin: 0;
+}
+.card-info-container>h3{
+    margin: 0;
+    padding: .5em 0;
+    color: hsl(212, 21%, 14%);
+    font-size: 2em;
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.card-price>h4{
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.card-btn{
+    font-family: inherit;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    cursor: pointer;
+}
+.card-btn:hover, .card-btn:active{
+    background-color: hsl(30, 38%, 92%);
+    color: black;
+}
+i{
+    padding-right: .5em;
+}
+
+h2{
+    color: hsl(158, 36%, 37%);
+    font-size: 2em;
+    margin-right: 1em;
+}
+p{
+    line-height: 1.5em;
+    margin: 0;
+}
+h3, h2{
+    font-family: 'Fraunces', serif;
+}
+a{
+    color:  hsl(158, 36%, 37%);
+}
+a:hover, a:active{
+    color: black;
+}
+.attribution{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    text-align: center;
+    font-size: .8em;
+}
+@media (min-width: 750px){
+    body{
+        font-size: 16px;
+        margin: auto;
+        height: 100vh;
+    }
+    .card{
+        height: 80%;
+        width: 70%;
+        max-height: 480px;
+        max-width: 600px;
+        display: flex;
+
+    }
+    .card-img-container{
+        width: 55%;
+        box-sizing: border-box;
+        height: 100%;
+    
+    }
+    .card-info-container{
+        width: 50%;
+    }
+    #mobile{
+        display: none;
+    }
+    #desktop{
+        display: flex;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: .7em 0 0 .7em;
+    }
+    .card-btn{
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+}
