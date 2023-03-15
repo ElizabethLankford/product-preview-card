@@ -26,15 +26,17 @@ Users should be able to:
 ### Screenshot
 
 Desktop view
-![](./images/image-product-desktop.jpg)
+
+![](./images/screenshot-desktop.JPG)
 
 Mobile device view
-![](./images/image-product-mobile.jpg)
+
+![](./images/screenshot-mobile.JPG)
 
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/ElizabethLankford/product-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here]([https://your-live-site-url.com](https://transcendent-banoffee-5ac354.netlify.app/))
 
 ### Built with
 
