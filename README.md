@@ -36,7 +36,7 @@ Mobile device view
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/ElizabethLankford/product-preview-card)
-- Live Site URL: [Live site URL here]([https://your-live-site-url.com](https://transcendent-banoffee-5ac354.netlify.app/))
+- Live Site URL: [Live site URL here]((https://transcendent-banoffee-5ac354.netlify.app/))
 
 ### Built with
 
